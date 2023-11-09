@@ -23,3 +23,55 @@ gsap.to("#main",{
         scrub: 2, 
     }
 })
+
+gsap.from("#page2 img, #page2 p",{
+    y: 90,
+    opacity: 0,
+    duration: 2,
+    scrollTrigger:{
+        trigger:"#page2",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 65%",
+        scrub:4,
+    }
+})
+
+gsap.from("#page3 img, #page3 p",{
+    y: 90,
+    opacity: 0,
+    duration: 2,
+    scrollTrigger:{
+        trigger:"#page3",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 65%",
+        scrub:4,
+    }
+})
+
+gsap.from("#page4 img, #page4 p",{
+    y: 90,
+    opacity: 0,
+    duration: 2,
+    scrollTrigger:{
+        trigger:"#page4",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 65%",
+        scrub:4,
+    }
+})
+
+gsap.from("#page5 img, #page5 p",{
+    y: 90,
+    opacity: 0,
+    duration: 2,
+    scrollTrigger:{
+        trigger:"#page5",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 65%",
+        scrub:4,
+    }
+})
