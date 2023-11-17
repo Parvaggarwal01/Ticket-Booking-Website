@@ -287,3 +287,42 @@ html, body{
     margin-left: 20vw;
     margin-top: 1vw;
 }
+
+#footer{
+    height: 30vh;
+    width: 100%;
+    background: #000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#f1,#f2{
+    width: fit-content;
+    position: relative;
+    z-index: 2;
+}
+
+#f1 h3{
+    font-family: 'Poppins';
+    font-size: 1.5vw;
+    white-space: nowrap;
+    color: #999da0;
+    margin-bottom: 0.5vw;
+    margin-left: 2vw;
+
+}
+
+#f3 img{
+    height: 7vw;
+    margin-left: 40vw;
+}
+
+#f2 h3{
+    font-family: 'Poppins';
+    font-size: 1.5vw;
+    white-space: nowrap;
+    color: #999da0;
+    margin-bottom: 0.5vw;
+}
