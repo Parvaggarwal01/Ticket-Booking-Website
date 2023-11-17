@@ -24,7 +24,7 @@ body {
     height: 90px;
 }
 
-#wrapper{
+#backside{
     width: 420px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
@@ -35,12 +35,12 @@ body {
     padding: 30px 40px;
 }
 
-#wrapper h1{
+#backside h1{
     font-size: 36px;
     text-align: center;
 }
 
-#wrapper #input-box{
+#backside #input-box{
     position: relative;
     width: 100%;
     height: 50px;
@@ -72,28 +72,28 @@ body {
     font-size: 20px ;
 }
 
-#wrapper #remember-forgot{
+#backside #forgot{
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px; 
 }
 
-#remember-forgot label input{
+#forgot label input{
     accent-color: #fff;
     margin-right: 3px;
 }
 
-#remember-forgot a{
+#forgot a{
     color: #fff;
     text-decoration: none;
 }
 
-#remember-forgot a:hover{
+#forgot a:hover{
     text-decoration: underline;
 }
 
-#wrapper #btn{
+#backside #btn{
     width: 100%;
     height: 45px;
     background: #fff;
@@ -107,18 +107,18 @@ body {
     font-weight: 600;
 }
 
-#wrapper #register-link{
+#backside #register_here{
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
 }
 
-#register-link p a{
+#register_here p a{
     color: #fff;
     text-decoration: none;
     font-weight: 600;
 }
 
-#register-link p a:hover{
+#register_here p a:hover{
     text-decoration: underline;
 }
