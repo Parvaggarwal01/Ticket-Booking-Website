@@ -35,6 +35,6 @@
         });
       })
 
-      function myFunction() {
+      function Popup() {
         alert("Thanks For Booking Your tickets! We will mail your tickets asap!")
       }
